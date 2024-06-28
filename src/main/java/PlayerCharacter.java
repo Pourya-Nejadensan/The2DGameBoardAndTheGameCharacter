@@ -9,6 +9,10 @@ public class PlayerCharacter {
         }
         else if(direction.equals("S")) {
             return -1;
+        }else if(direction.equals("D")) {
+            return 1;
+        }else if(direction.equals("A")) {
+            return -1;
         }
         return 0;
 

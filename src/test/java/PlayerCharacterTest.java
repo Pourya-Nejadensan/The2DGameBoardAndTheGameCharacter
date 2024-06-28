@@ -42,5 +42,23 @@ public class PlayerCharacterTest {
         //then
         assertEquals(-1, result);
     }
+    @Test
+    public void moveTest_whenArgumentD_returnDisOne(){
+        //given
+        String movement = "D";
+        //when
+        int result = PlayerCharacter.move(movement);
+        //then
+        assertEquals(1, result);
+    }
+    @Test
+    public void moveTest_whenArgumentA_returnAisMinusOne(){
+        //given
+        String movement = "A";
+        //when
+        int result = PlayerCharacter.move(movement);
+        //then
+        assertEquals(-1, result);
+    }
 
 }
