@@ -6,7 +6,11 @@ public class PlayerCharacter {
     public static int move(String direction) {
         if(direction.equals("W")) {
             return 1;
-        };
+        }
+        else if(direction.equals("S")) {
+            return -1;
+        }
         return 0;
+
     }
 }
