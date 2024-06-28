@@ -1,14 +1,15 @@
 import org.junit.jupiter.api.Test;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
 public class PlayerCharacterTest {
     @Test
     public void getXTest_whenMiddle_returnZero(){
         //given
 
         //when
-        int result = getX();
+        int result = PlayerCharacter.getX();
         //then
-        assertEqual(0, result);
+        assertEquals(0, result);
     }
-
 }
