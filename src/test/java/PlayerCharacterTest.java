@@ -12,4 +12,14 @@ public class PlayerCharacterTest {
         //then
         assertEquals(0, result);
     }
+    @Test
+    public void getYTest_whenMiddle_returnZero(){
+        //given
+
+        //when
+        int result = PlayerCharacter.getY();
+        //then
+        assertEquals(0, result);
+    }
+
 }
